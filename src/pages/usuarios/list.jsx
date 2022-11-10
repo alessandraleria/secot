@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 
 import Sidebar from "../../components/sidebar/sidebar";
-import StickyHeadTable from "../../components/sidebar/table/table";
+import UserTable from "./table";
 
 const Content = () => {
-  return <StickyHeadTable />;
+  return <UserTable />;
 };
 
 const Usuarios = () => {

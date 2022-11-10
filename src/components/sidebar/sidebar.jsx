@@ -148,29 +148,17 @@ export default function Sidebar({ content, activePage }) {
               </ListItemIcon>
               <ListItemText primary="Usuários" />
             </ListItemButton>
+            <ListItemButton onClick={() => navigate("/palestras")}>
+              <ListItemIcon>
+                <DashboardIcon style={{ color: "white" }} />
+              </ListItemIcon>
+              <ListItemText primary="Palestras" />
+            </ListItemButton>
             <ListItemButton onClick={() => navigate("/ler-qr-code")}>
               <ListItemIcon>
-                <ShoppingCartIcon style={{ color: "white" }} />
+                <DashboardIcon style={{ color: "white" }} />
               </ListItemIcon>
               <ListItemText primary="QR Code" />
-            </ListItemButton>
-            <ListItemButton>
-              <ListItemIcon>
-                <PeopleIcon style={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText primary="Customers" />
-            </ListItemButton>
-            <ListItemButton>
-              <ListItemIcon>
-                <BarChartIcon style={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText primary="Reports" />
-            </ListItemButton>
-            <ListItemButton>
-              <ListItemIcon>
-                <LayersIcon style={{ color: "white" }} />
-              </ListItemIcon>
-              <ListItemText primary="Integrations" />
             </ListItemButton>
           </List>
         </Drawer>
